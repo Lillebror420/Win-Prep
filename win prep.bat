@@ -18,7 +18,7 @@ if "%choice%"=="1" (
 
 
     if "%newcomputername%"=="" (
-        echo Kan ikke være tom.
+        echo Skal udfyldes.
         pause
         goto changecomputername
     )
